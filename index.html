@@ -16,7 +16,7 @@
             font-family: "Poppins", serif;
         }
     </style>
-    <script>
+    <script> 
         tailwind.config = {
           theme: {
             extend: {
@@ -151,7 +151,22 @@
     <!-- Main Section  -->
     <main class="md:container mx-auto">
         <!-- Featured Bike Section -->
-        <section class="my-24"></section>
+        <section class="my-24">
+            <h3 class="text-5xl font-bold text-center mb-2">Fetured Bikes In This Year</h3>
+            <p class="text-bike_primary text-center font-bold text-2xl mb-11">Best bike collection</p>
+            <!-- Bikes image  -->
+            <div class="grid grid-cols-1 gap-10  md:grid-cols-2 lg:grid-cols-3">
+                <div class="flex justify-center items-center">
+                    <img class="filter grayscale " src="images/others/feature-bike.png" alt="">
+                </div>
+                <div class="flex justify-center items-center w-full">
+                    <img src="images/others/feature-bike.png" alt="">
+                </div>
+                <div class="flex justify-center items-center">
+                    <img class="filter grayscale"                                              src="images/others/feature-bike.png" alt="">
+                </div>
+            </div>
+        </section>
 
         <!-- Latest Bike Section -->
         <section class="my-24">
@@ -208,6 +223,8 @@
 
         <!-- Happy Clients Section -->
         <section class="my-24"></section>
+      
+       
 
         <!-- FAQ Section -->
         <section class="my-24">
